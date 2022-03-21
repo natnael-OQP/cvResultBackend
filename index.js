@@ -24,7 +24,7 @@ app.post(
     }
   })
 );
-// get user by id
+// get cv by id
 app.get(
   "/api/:id",
   asyncHandler(async (req, res, next) => {
